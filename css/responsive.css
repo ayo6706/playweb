@@ -1,0 +1,140 @@
+@media only screen and (max-width: 768px) {
+
+.pc{
+display:none;
+	
+}
+
+.td-column-2{
+	width: 100%;
+}
+.contact{
+	margin-right: 30px;
+	margin-left: 16px;
+}
+.panel{
+	margin-left: 10px;
+	
+	width: 100%;
+} 
+.tw-hidden{
+	display: none;
+}   
+
+.intro {
+    padding: 80px 80px 30px 80px;
+}
+
+
+.td-pb-row {
+    width: 100%!important;
+}
+.td-pb-row .td-pb-span1, .td-pb-row .td-pb-span2, .td-pb-row .td-pb-span3, .td-pb-row .td-pb-span4, .td-pb-row .td-pb-span5, .td-pb-row .td-pb-span6, .td-pb-row .td-pb-span7, .td-pb-row .td-pb-span8, .td-pb-row .td-pb-span9, .td-pb-row .td-pb-span10, .td-pb-row .td-pb-span11, .td-pb-row .td-pb-span12 {
+    float: none;
+    width: 100%!important;
+    margin-bottom: 0!important;
+    padding-bottom: 0;
+    border-left: none;
+}
+
+.td-block-span4, .td-block-span6, .td-block-span12 {
+    float: none;
+    width: 100%!important;
+    margin-bottom: 0!important;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px!important;
+}
+
+
+	.blog-posts-shortcode .post-title{
+		text-align: left;
+	}
+	.more-post-details{
+		text-align: left;
+	}
+	.blog-posts-shortcode .post-excerpt{
+		text-align: left;
+	}
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+.android{
+
+	display:none;
+}
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+	.intro{
+		padding: 15px 74px 22px 80px;
+	}
+	.group h2{
+		font-size: small;
+	}
+	.contact h2 {
+    font-size: 17px;
+}
+	.pc{
+
+	display:none;
+	}
+	.header-text{
+		margin-bottom: 230px
+		
+	}
+	.header-text>p{
+		margin-top: 40px;
+	}
+	.header-btns{
+		border: 1px solid yellow;
+		padding: 4px;
+		padding-left : 30px;
+		padding-right : 30px;
+		margin-top: -300px;
+		border-radius: 10px;
+		color: #fff;
+		transition: all 1s;
+
+
+	}
+	.header-btns:hover{
+		background: yellow;
+		color: #fff;
+		transition: all 1s;
+
+	}
+	.header-btns:visited{
+		color: #fff;
+	}
+	.entry-thumb{
+		width: 100%;
+		height: 193px;
+	}
+	.blog-title{
+		font-size: 32px;
+	}
+
+
+	  div .half {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    float: left;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 0;
+  }
+  div .half:nth-child(2n+2) {
+    float: right;
+    margin-left: 5%;
+    margin-right: 0;
+  }
+
+}		
